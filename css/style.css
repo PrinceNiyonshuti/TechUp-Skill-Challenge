@@ -41,7 +41,6 @@ p {
 	width: 85%;
 	margin: 0 auto;
 	margin-top: 70px;
-	/* height: 80vh; */
 	box-shadow: 10px 10px 20px 10px grey;
 	position: relative;
 }
@@ -56,10 +55,7 @@ p {
 	justify-content: center;
 	justify-content: space-around;
 	align-items: center;
-	/* padding-top: 50px; */
-	/* padding-bottom: 50px; */
-	/* gap: 50px; */
-	/* background-color: aqua; */
+
 }
 .row {
 	display: flex;
@@ -67,8 +63,7 @@ p {
 	gap: 50px;
 	padding-bottom: 20px;
 }
-.col {
-}
+
 input[type="text"] {
 	width: 100%;
 	padding: 12px 20px;
@@ -95,10 +90,9 @@ textarea {
 .no-outline:focus {
 	outline: none;
 }
-.left-container {
-}
+
 .right-container {
-	border-left: 1px solid black;
+	border-left: 1px solid lightgray;
 	margin: 40px;
 	padding: 40px;
 }
