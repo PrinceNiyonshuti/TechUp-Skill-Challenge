@@ -18,6 +18,9 @@ const item = [
 ],
 ```
 1 . Filter and show the product that will be bought when you don't have much money I mean Cheap one
+
 2 . Filter and show the product that will be expensive in the array
+
 3 . Calculate the full price of all product combined
+
 4 . Calculate the full price of all product combined and remove product that are under the 10 dollar
