@@ -1,0 +1,82 @@
+/** @format */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: "Nunito", sans-serif;
+	font-family: "Outfit", sans-serif;
+}
+h1 {
+	font-size: 50px;
+}
+h2 {
+	font-size: 28px;
+}
+p {
+	font-size: 18px;
+	padding-top: 10px;
+}
+#wallaper {
+	position: fixed;
+}
+
+#content {
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 70px;
+	height: 80vh;
+	box-shadow: 10px 10px 20px 10px grey;
+}
+
+.inner-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	/* padding-top: 50px; */
+	/* padding-bottom: 50px; */
+	/* gap: 50px; */
+	/* background-color: aqua; */
+}
+
+input[type="text"] {
+	width: 100%;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid black;
+}
+textarea {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid black;
+}
+.btn {
+	background-color: #d45b15;
+	border: none;
+	color: white;
+	padding: 10px 15px;
+	text-align: center;
+	font-size: 14px;
+  cursor: pointer;
+}
+.no-outline:focus {
+	outline: none;
+}
+.left-container {
+	/* padding-right: 20px; */
+}
+.right-container {
+	border-left: 1px solid black;
+	margin: 40px;
+	padding: 40px;
+}
