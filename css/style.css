@@ -19,20 +19,37 @@ p {
 	padding-top: 10px;
 }
 #wallaper {
-	position: fixed;
+	position: relative;
+}
+.contours {
+	position: absolute;
+	bottom: -200px;
+	z-index: -1;
+}
+.logo {
+	padding-bottom: 20px;
+	width: 80px;
+	position: relative;
+	top: 0px;
+	left: -1px;
 }
 
-#content {
+.content {
 	background-color: white;
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 90%;
+	width: 85%;
 	margin: 0 auto;
 	margin-top: 70px;
-	height: 80vh;
+	/* height: 80vh; */
 	box-shadow: 10px 10px 20px 10px grey;
+	position: relative;
 }
-
+.form-contours {
+	position: absolute;
+	top: -66px;
+	right: -1px;
+}
 .inner-container {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -44,7 +61,14 @@ p {
 	/* gap: 50px; */
 	/* background-color: aqua; */
 }
-
+.row {
+	display: flex;
+	justify-content: space-between;
+	gap: 50px;
+	padding-bottom: 20px;
+}
+.col {
+}
 input[type="text"] {
 	width: 100%;
 	padding: 12px 20px;
@@ -67,16 +91,22 @@ textarea {
 	padding: 10px 15px;
 	text-align: center;
 	font-size: 14px;
-  cursor: pointer;
 }
 .no-outline:focus {
 	outline: none;
 }
 .left-container {
-	/* padding-right: 20px; */
 }
 .right-container {
 	border-left: 1px solid black;
 	margin: 40px;
 	padding: 40px;
+}
+.download {
+	display: flex;
+	align-items: center;
+	padding-top: 20px;
+}
+.cursor {
+	cursor: pointer;
 }
